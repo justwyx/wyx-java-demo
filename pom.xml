@@ -12,6 +12,6 @@
 
 
     <modules>
-
+        <module>lambda-demo</module>
     </modules>
 </project>
