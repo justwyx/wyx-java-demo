@@ -11,7 +11,7 @@ import java.util.function.Supplier;
  * @author : Just wyx
  * @Date : 2020/11/18
  */
-public class SupplierDemo {
+public class SupplierDemoTest {
 
 	@Test
 	public void testGet() {

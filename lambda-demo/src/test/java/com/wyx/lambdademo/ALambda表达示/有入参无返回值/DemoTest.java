@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @author : Just wyx
  * @Date : 2020/11/18
  */
-public class Demo {
+public class DemoTest {
 	interface Some {
 		void doSome(int i);
 	}

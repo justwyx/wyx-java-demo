@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @Description : TODO 2020/11/18
  * @Date : 2020/11/18
  */
-public class Demo {
+public class DemoTest {
 	interface Some {
 		String doSome(String str, int i);
 	}

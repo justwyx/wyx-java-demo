@@ -12,7 +12,7 @@ import java.util.function.Function;
  * @author : Just wyx
  * @Date : 2020/11/18
  */
-public class FunctionDemo {
+public class FunctionDemoTest {
 	@Test
 	public void testApply() {
 		// Function<入参类型, 出参类型>

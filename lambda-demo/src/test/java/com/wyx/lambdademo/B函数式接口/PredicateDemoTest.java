@@ -12,7 +12,7 @@ import java.util.function.*;
  * @author : Just wyx
  * @Date : 2020/11/18
  */
-public class PredicateDemo {
+public class PredicateDemoTest {
 
 	@Test
 	public void testPredicate() {

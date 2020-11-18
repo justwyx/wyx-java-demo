@@ -12,7 +12,7 @@ import java.util.function.Consumer;
  * @author : Just wyx
  * @Date : 2020/11/18
  */
-public class ConsumerDemo {
+public class ConsumerDemoTest {
 	@Test
 	public void testAccept() {
 		Consumer<Integer> consumer = i -> System.out.println("这次输入的是：" + i);

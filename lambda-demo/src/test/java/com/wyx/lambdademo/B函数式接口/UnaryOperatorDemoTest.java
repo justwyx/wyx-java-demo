@@ -10,7 +10,7 @@ import java.util.function.UnaryOperator;
  * @author : Just wyx
  * @Date : 2020/11/18
  */
-public class UnaryOperatorDemo {
+public class UnaryOperatorDemoTest {
 
 	@Test
 	public void testApply() {
