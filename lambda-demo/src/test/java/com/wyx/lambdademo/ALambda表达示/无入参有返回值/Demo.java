@@ -1,9 +1,6 @@
-package com.wyx.lambdademo.A1Lambda表达示.无入参有返回值;
+package com.wyx.lambdademo.ALambda表达示.无入参有返回值;
 
 import org.junit.jupiter.api.Test;
-
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 /**
  * @Description : 无入参有返回值 demo

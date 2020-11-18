@@ -1,4 +1,4 @@
-package com.wyx.lambdademo.A1Lambda表达示.有入参有返回值;
+package com.wyx.lambdademo.ALambda表达示.有入参有返回值;
 
 import org.junit.jupiter.api.Test;
 
