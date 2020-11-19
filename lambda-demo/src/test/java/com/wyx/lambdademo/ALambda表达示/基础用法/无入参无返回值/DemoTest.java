@@ -1,4 +1,4 @@
-package com.wyx.lambdademo.ALambda表达示.无入参无返回值;
+package com.wyx.lambdademo.ALambda表达示.基础用法.无入参无返回值;
 
 import org.junit.jupiter.api.Test;
 
