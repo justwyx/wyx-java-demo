@@ -14,5 +14,12 @@
     <modules>
         <module>lambda-demo</module>
         <module>thread-demo</module>
+        <module>spi-demo</module>
     </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.complier.source>1.8</maven.complier.source>
+        <maven.complier.target>1.8</maven.complier.target>
+    </properties>
 </project>
