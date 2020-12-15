@@ -12,7 +12,9 @@
 	<artifactId>sensitive-word-filter-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sensitive-word-filter-demo</name>
-	<description>敏感词过滤-demo</description>
+	<description>
+		敏感词过滤-demo
+	</description>
 
 	<properties>
 		<java.version>1.8</java.version>

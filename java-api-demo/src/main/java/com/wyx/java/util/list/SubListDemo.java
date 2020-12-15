@@ -1,5 +1,6 @@
 package com.wyx.java.util.list;
 
+import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.List;
 

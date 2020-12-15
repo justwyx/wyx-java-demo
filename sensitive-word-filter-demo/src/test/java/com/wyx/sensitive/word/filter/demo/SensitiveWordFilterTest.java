@@ -28,17 +28,17 @@ public class SensitiveWordFilterTest {
 		System.out.println("待检测语句字数：" + string.length());
 
 		//ResourceUtils.CLASSPATH_URL_PREFIX
-		System.out.println(dfaUtil.checkExistence(string,true));
-		System.out.println(dfaUtil.checkExistence(string,false));
+		System.out.println(dfaUtil.checkExistence(string, true));
+		System.out.println(dfaUtil.checkExistence(string, false));
 
-		Set<String> set = dfaUtil.getSensitiveWords(string,true);
+		Set<String> set = dfaUtil.getSensitiveWords(string, true);
 		System.out.println("语句中包含敏感词的个数为：" + set.size() + "。包含：" + set);
-		set = dfaUtil.getSensitiveWords(string,false);
+		set = dfaUtil.getSensitiveWords(string, false);
 		System.out.println("语句中包含敏感词的个数为：" + set.size() + "。包含：" + set);
 
-		String filterStr =dfaUtil.filter(string,'*', true);
+		String filterStr = dfaUtil.filter(string, '*', true);
 		System.out.println(filterStr);
-		filterStr = dfaUtil.filter(string,'*', false);
+		filterStr = dfaUtil.filter(string, '*', false);
 		System.out.println(filterStr);
 
 		System.out.println("执行时间" + (System.currentTimeMillis() - start + "ms"));
@@ -53,24 +53,23 @@ public class SensitiveWordFilterTest {
 				+ "AV女,AV女AV女。八九学潮,八九见证paper ";
 
 
-
 		long start = System.currentTimeMillis();
 		dfaUtil.turnToDFA2();
 		System.out.println("待检测语句字数：" + string.length());
 
 		//ResourceUtils.CLASSPATH_URL_PREFIX
-		System.out.println(dfaUtil.checkExistence(string,true));
-		System.out.println(dfaUtil.checkExistence(string,false));
+		System.out.println(dfaUtil.checkExistence(string, true));
+		System.out.println(dfaUtil.checkExistence(string, false));
 
-		Set<String> set = dfaUtil.getSensitiveWords(string,true);
+		Set<String> set = dfaUtil.getSensitiveWords(string, true);
 		System.out.println("语句中包含敏感词的个数为：" + set.size() + "。包含：" + set);
-		set = dfaUtil.getSensitiveWords(string,false);
+		set = dfaUtil.getSensitiveWords(string, false);
 		System.out.println("语句中包含敏感词的个数为：" + set.size() + "。包含：" + set);
 
 
-		String filterStr = dfaUtil.filter(string,'*', true);
+		String filterStr = dfaUtil.filter(string, '*', true);
 		System.out.println(filterStr);
-		filterStr = dfaUtil.filter(string,'*', false);
+		filterStr = dfaUtil.filter(string, '*', false);
 		System.out.println(filterStr);
 
 		System.out.println("执行时间" + (System.currentTimeMillis() - start + "ms"));

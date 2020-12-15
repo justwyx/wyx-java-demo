@@ -17,6 +17,7 @@
         <module>spi-demo</module>
         <module>java-api-demo</module>
         <module>sensitive-word-filter-demo</module>
+        <module>java-security-demo</module>
     </modules>
 
     <properties>
