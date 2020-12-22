@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 /**
  * reduce，减少，缩减。该方法的作用是将集合流最终转换为一个指定类型的数据。
- * 其参 数为二元接口 BinaryOperator，即两个输入一个输出，且类型相同。
+ * 其参数为二元接口 a，即两个输入一个输出，且类型相同。
  * 由两个输入最终变为了 一个输出，就达到了缩减 reduce 的效果了。
  *
  * @author : Just wyx
