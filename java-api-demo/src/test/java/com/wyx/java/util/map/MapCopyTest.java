@@ -14,6 +14,7 @@ public class MapCopyTest {
 
 	/**
 	 * 深拷贝test
+	 * putAll会进行深拷贝
 	 */
 	@Test
 	public void deepCopyTest() {
