@@ -10,12 +10,12 @@ import javax.crypto.IllegalBlockSizeException;
 public class RSADemo {
 
 	public static void main(String[] args) throws BadPaddingException, IllegalBlockSizeException {
-		String message = "我要测试一下RSA加密我要测试一下RSA加密我要测试";
+		String message = "111111";
 		// 加密
 		String encryptMessage = RSAEncryptUtil.encrypt(message);
 		System.out.println("加密后的值：" + encryptMessage);
 
-		String decryptMessage = RSADecryptUtil.decrypt("dfPXxQ77NK2HrX4FTWTrNJD3xNh9n4qL4k3R8C1AOye6OGTsMrNs/Eoz5LHN5y66Itu9tjEMWebc8Qu1PxLp8634kocCb+/wXLVZMxr9V/Hm3EdPjnoxr8p0x34aFob0PRv7ydygBltKusJ1AkQt0P7KP+3H9CoCeqayUt4ZUGw=");
+		String decryptMessage = RSADecryptUtil.decrypt("eZvxbnytQ6JxvZv5wg99F6MLPWOlIjFwDBB+sEAC4i5+hXIYSks/peQWgAL+nmX+68Zqq+xclhp/EUoNFzKRxm/RinUXe7rPpaTBvD9QKWsryOIFE8ZC5zSY9dGk/ofO3ydKEVKJ7A/X45AhPpMEJ3rmPZm6u1Rn1JGflMANA9Y=");
 		System.out.println("解密后的值：" + decryptMessage);
 	}
 }
